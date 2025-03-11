@@ -1,12 +1,12 @@
 {
   "name": "appservicetest",
   "version": "1.0.0",
-  "description": "Repository to deploy a dummy App Service for testing",
-  "main": "index.js",
+  "description": "A dummy app service application for testing Azure deployment",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
